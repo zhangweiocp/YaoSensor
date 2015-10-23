@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1"
+    android:shrinkColumns="1"
+    android:padding="5px" >
+<TableRow>    
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="摇摇录音器是一款在时间上没有限制的录音软件。功能上，该软件可以自动控制音量大小，并支持后台录制，您还可以在第一时间将录制好的音频文件存入手机，另外您也能将其以邮件的形式发送出去。"/>
+</TableRow>
+</TableLayout>
